@@ -1,5 +1,6 @@
 import cv2 as cv
 import matplotlib.pyplot as plt
+import numpy as np
 
 img=cv.imread('tien.jpg',0)# doc anh
 img_equalized= cv.equalizeHist(img)# can bang anh
